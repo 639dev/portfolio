@@ -1,0 +1,136 @@
+
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+   height: 100%
+}
+
+
+a {
+  color: black;
+}
+
+
+a.active {
+  color: grey;
+}
+
+
+a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+
+.nav {
+  border-bottom: 1px solid lightgrey;
+}
+
+
+header {
+  font-family: 'Poiret One', cursive;
+  margin-top: 60px;
+}
+
+
+.horizontal-line {
+  color: #7d97ad;
+}
+
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+
+.banner {
+  width: 100%;
+}
+
+
+.featured-text {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+
+.project {
+  margin-top: 5px;
+}
+
+
+.project-name {
+  margin-top: 10px;
+}
+
+
+.project-description {
+  font-size: 12px;
+}
+
+
+.project-img {
+  width: 100%;
+}
+
+
+.footer {
+  border-top: 1px solid lightgrey;
+  margin-bottom: 10px;
+  margin-top: 60px;
+  /*position: fixed;
+  bottom: 0;
+  width: 90%;*/ /*to stick footer to bottom but needs media queries for smaller screen */
+}
+
+
+.zocial-icon {
+  color: grey;
+  margin-top: 10px;
+}
+
+
+@media screen and (max-width: 575px) {
+  .featured-work-text {
+    font-size: 18px;
+  }
+
+
+  .project-name {
+    font-size: 17px;
+  }
+
+
+  .project-description {
+    font-size: 11px;
+  }
+}
+
+
+@media screen and (min-width: 576px) {
+  .featured-work-text {
+    font-size: 22px;
+  }
+
+
+  .project-name {
+    font-size: 19px;
+  }
+
+
+  .project-description {
+    font-size: 12px;
+  }
+}
+
